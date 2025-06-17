@@ -1,0 +1,48 @@
+---
+import '../styles/tailwind.css';
+
+interface Props {
+	title?: string;
+	description?: string;
+}
+
+const { 
+	title = 'Centro Jurídico | Profesionales del Derecho a tu Servicio',
+	description = 'Somos un equipo de abogados especializados en diferentes áreas del derecho, comprometidos con ofrecer soluciones legales efectivas y personalizadas para nuestros clientes.'
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content={description} />
+		<title>{title}</title>
+		
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+		
+		<!-- AOS Animations -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	</head>
+	<body>
+		<slot />
+		
+		<!-- AOS Init Script -->
+		<script is:inline src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script is:inline>
+			document.addEventListener('DOMContentLoaded', function() {
+				AOS.init({
+					duration: 800,
+					easing: 'ease-out',
+					once: true
+				});
+			});
+		</script>
+	</body>
+</html>

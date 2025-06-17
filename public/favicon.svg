@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.44111,0,0,1.44111,-112.924,-112.924)">
+        <circle cx="256" cy="256" r="177.635" style="fill:rgb(12,135,235);"/>
+    </g>
+    <g transform="matrix(1.28095,0,0,1.28095,-71.9229,-71.9229)">
+        <circle cx="256" cy="256" r="177.635" style="fill:rgb(78,97,130);"/>
+    </g>
+    <g transform="matrix(0.698828,0,0,0.698828,77.1001,77.1001)">
+        <path d="M256,78.365C354.416,78.365 433.635,157.584 433.635,256C433.635,354.416 354.416,433.635 256,433.635C157.584,433.635 78.365,354.416 78.365,256C78.365,157.584 157.584,78.365 256,78.365ZM256,155.135C376.059,155.135 356.865,356.865 256,356.865C155.135,356.865 155.135,256 155.135,256C155.135,199.825 200.466,155.135 256,155.135Z" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1.5,0,0,1.5,-128,-138)">
+        <path d="M256,186.135L303.443,213.067L303.443,266.933L256,293.865L208.557,266.933L208.557,213.067L256,186.135Z" style="fill:white;"/>
+    </g>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            circle:nth-of-type(1) { fill: #0057A3; }
+            circle:nth-of-type(2) { fill: #30394A; }
+        }
+    </style>
+</svg>
